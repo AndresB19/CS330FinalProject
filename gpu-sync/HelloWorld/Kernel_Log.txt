@@ -1,0 +1,12 @@
+>>>>>>>> cudaDeviceSynchronize called 
+>>>>>>>> cudaDeviceSynchronize returned
+>>>>>>>> cudaLaunchKernel called 
+>>>>>>>> cudaLaunchKernel returned
+>>>>>>>> cudaLaunchKernel called 
+>>>>>>>> cudaLaunchKernel returned
+>>>>>>>> cudaDeviceSynchronize called 
+>>>>>>>> cudaDeviceSynchronize returned
+>>>>>>>> cudaLaunchKernel called 
+>>>>>>>> cudaLaunchKernel returned
+>>>>>>>> cudaLaunchKernel called 
+>>>>>>>> cudaLaunchKernel returned

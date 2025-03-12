@@ -1,0 +1,298 @@
+{
+  "name": "Hello CS330",
+  "max_iterations": 1,
+  "max_time": 0,
+  "cuda_device": 0,
+  "pin_cpus": true,
+  "benchmarks": [
+    {
+      "filename": "./bin/multikernel.so",
+      "log_name": "cs330_h_1.json",
+      "label": "Stream 1",
+      "thread_count": 1,
+      "block_count": 1,
+      "data_size": 0,
+      "additional_info": [
+        {
+          "kernel_label": "K1",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K2",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 1024,
+          "sm_mask": "~0x20"
+        },
+        {
+          "kernel_label": "K3",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K5",
+          "duration": 500000000,
+          "block_count": 7,
+          "thread_count": 1024,
+          "sm_mask": "~0x74"
+        },
+        {
+          "kernel_label": "K6",
+          "duration": 500000000,
+          "block_count": 3,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K7",
+          "duration": 500000000,
+          "block_count": 3,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K8",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K9",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K10",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K12",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K13",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K14",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K16",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        },
+        {
+          "kernel_label": "K17",
+          "duration": 500000000,
+          "block_count": 2,
+          "thread_count": 1024,
+          "sm_mask": "~0x50"
+        },
+        {
+          "kernel_label": "K18",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0x70"
+        }
+      ]
+    },
+    {
+      "filename": "./bin/multikernel.so",
+      "log_name": "cs330_h_2.json",
+      "label": "Stream 2",
+      "thread_count": 1,
+      "block_count": 1,
+      "data_size": 0,
+      "release_time": 0.001,
+      "additional_info": [
+        {
+          "kernel_label": "K1",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "K2",
+          "duration": 500000000,
+          "block_count": 2,
+          "thread_count": 1024,
+          "sm_mask": "~0xA"
+        },
+        {
+          "kernel_label": "K3",
+          "duration": 500000000,
+          "block_count": 2,
+          "thread_count": 1024,
+          "sm_mask": "~0xA"
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x2"
+        },
+        {
+          "kernel_label": "K5",
+          "duration": 500000000,
+          "block_count": 2,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "K6",
+          "duration": 500000000,
+          "block_count": 3,
+          "thread_count": 1024,
+          "sm_mask": "~0xE" 
+        },
+        {
+          "kernel_label": "K7",
+          "duration": 500000000,
+          "block_count": 4,
+          "thread_count": 1024,
+          "sm_mask": "~0xE" 
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x2"
+        },
+        {
+          "kernel_label": "K9",
+          "duration": 500000000,
+          "block_count": 3,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "K10",
+          "duration": 500000000,
+          "block_count": 3,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "K11",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x2"
+        },
+        {
+          "kernel_label": "K13",
+          "duration": 500000000,
+          "block_count": 3,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "K14",
+          "duration": 500000000,
+          "block_count": 3,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "K15",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "",
+          "duration": 500000000,
+          "block_count": 1,
+          "thread_count": 15,
+          "sm_mask": "~0x2"
+        },
+        {
+          "kernel_label": "K17",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        },
+        {
+          "kernel_label": "K18",
+          "duration": 500000000,
+          "block_count": 2,
+          "thread_count": 1024,
+          "sm_mask": "~0xA"
+        },
+        {
+          "kernel_label": "K19",
+          "duration": 500000000,
+          "block_count": 5,
+          "thread_count": 1024,
+          "sm_mask": "~0xE"
+        }
+      ]
+    }
+  ]
+}
+
+
