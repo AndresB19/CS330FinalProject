@@ -8,14 +8,14 @@ To see our final results:
 
 ## Figure Recreation:
 
-Run make in the SecondMirror folder. Then something else...
+Run make in the SecondMirror folder. 
 
 We created the file configs/cs330_h.json to encode the kernels and masks for the figure. 
 We also modified scriptsview_blocksbysm.py to only display 1024 threads per SM and to not print the kernel label if thread count is < 20.
 
 ## Wrapper Program:
 
-See gpu-sync/HelloWorld/Kernel_Log. To run, do this...
+See gpu-sync/HelloWorld/Kernel_Log.
 
 Compiler errors to fix from ....:
 - find and replace all 'CUDARTAPI' with nothing
