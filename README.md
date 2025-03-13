@@ -13,7 +13,7 @@ Run make in the SecondMirror folder.
 We created the file configs/cs330_h.json to encode the kernels and masks for the figure. 
 We also modified scriptsview_blocksbysm.py to only display 1024 threads per SM and to not print the kernel label if thread count is < 20.
 
-For instructions on how to display figures using view_blocks.py look at the section called "Artifact #2: cuda_scheduling_examiner" [here] (https://www.cs.unc.edu/~jbakita/rtas23-ae/)
+For instructions on how to display figures using view_blocks.py look at the section called "Artifact #2: cuda_scheduling_examiner" [here](https://www.cs.unc.edu/~jbakita/rtas23-ae/)
 
 ## Wrapper Program:
 
