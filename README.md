@@ -23,5 +23,7 @@ Compiler errors to fix from ....:
 - In remaining errors regarding 'expected token before =', comment out everything except the function pointer with no default parameters.
 (These should be lines 775, 1375, 3910).
 
-We changed code in GPUSync/Wrapper/make_stubs.py to log a CUDA function call and return to another file.
+We changed code in GPUSync/Wrapper/make_stubs3.py to log a CUDA function call and return to another file.
 We then created the HelloWorld folder and files to test the functionality. 
+
+For instructions on how to run the code on gpu-sync see the README.md file within the gpu-sync folder
